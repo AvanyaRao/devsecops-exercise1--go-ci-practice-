@@ -1,0 +1,11 @@
+name: Verify Go Project
+
+# Trigger the workflow on push to any branch and pull requests
+on:
+  push:
+    branches:
+      - main
+      - '**'   # optional: triggers on all branches
+  pull_request:
+    branches:
+      - main
